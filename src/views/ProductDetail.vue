@@ -8,7 +8,7 @@
                 <div class="col-md-8 mt-3">
                     <h2 class="fw-bold mb-4">{{ products.find(x => x.id === pid )?.name }}</h2>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-end">
                     <router-link to='/' class="btn btn-secondary"><i class="bi bi-caret-left"></i> กลับหน้าหลัก</router-link>
                 </div>
             </div>
